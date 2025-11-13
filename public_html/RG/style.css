@@ -1,0 +1,25 @@
+body {
+  background-image: url('images/Garden.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  position: fixed;
+  right: 20px;
+  bottom: -35px;
+}
+
+h1{ 
+  margin-left: 1cm;
+  font-size: 54px;
+  color: whitesmoke;
+}
+
+p{ 
+margin-left: 1cm;
+margin-right: 5cm;
+background-color: whitesmoke;
+ }
+
+

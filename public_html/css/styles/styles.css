@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('../font/Oswald.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gravitas';
+  src: url('../font/Gravitas.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../font/BebasNeue.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Shadows';
+  src: url('../font/Shadows.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Alumni';
+  src: url('../font/Alumni.ttf') format('truetype');
+}
+
+body{
+
+ background: rgba(210, 26, 124, 0.706);
+
+}
+
+footer {
+  position: fixed;
+  left: 0;     
+  bottom: 0;     
+  width: 100%;  
+  text-align: center;
+  padding: 15px;
+  color: white;  
+  font-weight: bold;
+  background: linear-gradient(90deg, rgba(255,255,255,0.3), rgba(210, 26, 124, 0.706));
+}
+	 
+
+
+h1{
+
+	font-family: Gravitas;
+	font-size: 54px;
+	margin-left: 4cm;
+}
+
+p{
+
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 25px;
+ margin-left: 4cm;
+ margin-right: 4cm;
+
+}
+
+a{
+
+	font-family: BebasNeue;
+	color: rgb(199, 11, 149);
+	font-size: 30px;
+}
+
+a:visited{
+
+  color: black;
+}
+
+a:hover{
+
+		color: white;
+
+}
+
+a:active{
+
+	color: rgba(210, 26, 124, 0.706) ;
+
+}
+
+img{
+
+	float: left;
+	margin-top:0.5cm;
+	margin-left:3.5cm;
+	margin-right:2cm;
+	margin-bottom:1cm;
+  border: 1cm solid white;
+
+}
+
+.intro {
+  font-size: 30px;
+  color: rgb(251, 251, 251)
+}
+.intro {
+  font-weight: bold
+}
+
+
+.highlight {
+  font-weight: bold;
+  font-family: Shadows;
+
+}
+
+.List{
+  margin-left: 4cm;
+   font-size: 25px;
+   font-family: Alumni;
+   font-weight: bold;
+
+}
+
+#changefont1{
+  font-family: Shadows
+}
+
+.clear {
+  clear: both; 
+}
+
+
+.toUpperCase{
+
+	text-transform: uppercase;
+}
+
+#link2{
+
+	font-size: 45px;
+}
